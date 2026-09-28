@@ -1,0 +1,36 @@
+ADS ASSIGNMENT 2 - QUESTION 5
+INPUT DATA
+
+1. Organisational hierarchy
+
+CEO
+    HR
+    Finance
+    IT
+        Development
+            Frontend
+            Backend
+        Testing
+
+2. Department names used for searchable representation
+The department names are stored in alphabetical order because
+Binary Search requires sorted data.
+
+Backend
+Development
+Finance
+Frontend
+HR
+IT
+Testing
+
+3. Search keys used for comparison
+
+Search 1: Frontend
+Search 2: HR
+Search 3: Testing
+
+Note:
+The assignment question does not specify particular search keys.
+These three department names are selected to demonstrate the
+searching operation and to record comparison counts.

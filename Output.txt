@@ -1,0 +1,78 @@
+ADS ASSIGNMENT 2 - QUESTION 5
+EXPECTED / RECORDED OUTPUT
+
+==================================================
+       ORGANISATIONAL HIERARCHY - QUESTION 5
+==================================================
+
+A) ORGANISATIONAL HIERARCHY
+
+CEO
+|-- HR
+|-- Finance
+|-- IT
+    |-- Development
+    |   |-- Frontend
+    |   |-- Backend
+    |-- Testing
+
+Level-order traversal:
+CEO  HR  Finance  IT  Development  Testing  Frontend  Backend
+
+Number of levels = 4
+Tree height (when counted as edges) = 3
+
+==================================================
+             DEPARTMENT SEARCH
+==================================================
+
+Sorted department representation:
+1. Backend
+2. Development
+3. Finance
+4. Frontend
+5. HR
+6. IT
+7. Testing
+
+Three search operations:
+
+Search key: Frontend
+Linear Search : Found
+Linear Search comparisons = 4
+Binary Search : Found
+Binary Search comparisons = 1
+
+Search key: HR
+Linear Search : Found
+Linear Search comparisons = 5
+Binary Search : Found
+Binary Search comparisons = 3
+
+Search key: Testing
+Linear Search : Found
+Linear Search comparisons = 7
+Binary Search : Found
+Binary Search comparisons = 3
+
+==================================================
+             COMPLEXITY ANALYSIS
+==================================================
+
+Tree construction : O(n) time, O(n) space
+Level-order       : O(n) time, O(n) auxiliary space
+Linear Search     : O(n) time, O(1) auxiliary space
+Binary Search     : O(log n) time, O(1) auxiliary space
+
+FINAL CONCLUSION
+The tree representation is suitable for the
+organisational hierarchy because it represents
+parent-child relationships clearly.
+
+Level-order traversal is suitable for
+organisational reporting because it processes
+the hierarchy level by level.
+
+For department searching, Binary Search can
+reduce the number of comparisons when the
+department names are maintained in sorted order.
